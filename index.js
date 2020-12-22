@@ -9,7 +9,7 @@ const app = express(); //inside one project can have several express app
 //res: outgoing response
 app.get('/', (req, res) => {
 	// send JSON response back
-	res.send({ hi: 'there' });
+	res.send({ bye: 'bud' });
 });
 
 // first: dynamic port binding
